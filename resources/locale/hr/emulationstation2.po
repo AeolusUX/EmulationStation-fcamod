@@ -1,0 +1,1317 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: recalbox-emulationstation\n"
+"Language: HR Preveo AeolusUX\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#:
+msgid "QUICK SEARCH"
+msgstr "BRZO PRETRAŽIVANJE"
+
+#:
+msgid "GO TO LETTER"
+msgstr "IDI NA SLOVO"
+
+#:
+msgid "COLLECTIONS"
+msgstr "KOLEKCIJE"
+
+#:
+msgid "GO TO MANUFACTURER"
+msgstr "IDI NA PROIZVOĐAČA"
+
+#:
+msgid "GO TO HARDWARE"
+msgstr "IDI NA HARDVER"
+
+#:
+msgid "GO TO DECADE"
+msgstr "IDI NA DESETLJEĆE"
+
+#:
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#:
+msgid "CONFIGURATION"
+msgstr "KONFIGURACIJA"
+
+#:
+msgid "CHOOSE"
+msgstr "ODABERI"
+
+#:
+msgid "SELECT"
+msgstr "ODABERI"
+
+#:
+msgid "RANDOM"
+msgstr "NASUMIČNO"
+
+#:
+msgid "SEARCH"
+msgstr "PRETRAŽI"
+
+#:
+msgid "LAUNCH SCREENSAVER"
+msgstr "POKRENI EKRANSKI SPASITELJ"
+
+#:
+msgid "Preloading UI"
+msgstr "Učitavanje korisničkog sučelja"
+
+#:
+msgid "Loading theme..."
+msgstr "Učitavanje teme..."
+
+#:
+msgid "Loading..."
+msgstr "Učitavanje..."
+
+#:
+msgid "MENU"
+msgstr "IZBORNIK"
+
+#:
+msgid "Rating"
+msgstr "Ocjena"
+
+#:
+msgid "Released"
+msgstr "Izdanje"
+
+#:
+msgid "Developer"
+msgstr "Razvojni tim"
+
+#:
+msgid "Publisher"
+msgstr "Izdavač"
+
+#:
+msgid "Genre"
+msgstr "Žanr"
+
+#:
+msgid "Players"
+msgstr "Igrači"
+
+#:
+msgid "Last played"
+msgstr "Zadnje igrano"
+
+#:
+msgid "Times played"
+msgstr "Broj igranja"
+
+#:
+msgid "No Entries Found"
+msgstr "Nema pronađenih unosa"
+
+#:
+msgid "SYSTEM"
+msgstr "SUSTAV"
+
+#:
+msgid "LAUNCH"
+msgstr "POKRENI"
+
+#:
+msgid "BACK"
+msgstr "NAZAD"
+
+#:
+msgid "OPTIONS"
+msgstr "OPCIJE"
+
+#:
+msgid "FAVORITE"
+msgstr "OMILJENO"
+
+#:
+msgid "FILENAME, ASCENDING"
+msgstr "IME DATOTEKE, RASTUĆE"
+
+#:
+msgid "FILENAME, DESCENDING"
+msgstr "IME DATOTEKE, SILAZNO"
+
+#:
+msgid "RATING, ASCENDING"
+msgstr "OCJENA, RASTUĆE"
+
+#:
+msgid "RATING, DESCENDING"
+msgstr "OCJENA, SILAZNO"
+
+#:
+msgid "TIMES PLAYED, ASCENDING"
+msgstr "BROJ IGRANJA, RASTUĆE"
+
+#:
+msgid "TIMES PLAYED, DESCENDING"
+msgstr "BROJ IGRANJA, SILAZNO"
+
+#:
+msgid "LAST PLAYED, ASCENDING"
+msgstr "ZADNJE IGRANO, RASTUĆE"
+
+#:
+msgid "LAST PLAYED, DESCENDING"
+msgstr "ZADNJE IGRANO, SILAZNO"
+
+#:
+msgid "NUMBER PLAYERS, ASCENDING"
+msgstr "BROJ IGRAČA, RASTUĆE"
+
+#:
+msgid "NUMBER PLAYERS, DESCENDING"
+msgstr "BROJ IGRAČA, SILAZNO"
+
+#:
+msgid "RELEASE DATE, ASCENDING"
+msgstr "DATUM IZDANJA, RASTUĆE"
+
+#:
+msgid "RELEASE DATE, DESCENDING"
+msgstr "DATUM IZDANJA, SILAZNO"
+
+#:
+msgid "GENRE, ASCENDING"
+msgstr "ŽANR, RASTUĆE"
+
+#:
+msgid "GENRE, DESCENDING"
+msgstr "ŽANR, SILAZNO"
+
+#:
+msgid "DEVELOPER, ASCENDING"
+msgstr "RAZVOJNI TIM, RASTUĆE"
+
+#:
+msgid "DEVELOPER, DESCENDING"
+msgstr "RAZVOJNI TIM, SILAZNO"
+
+#:
+msgid "PUBLISHER, ASCENDING"
+msgstr "IZDAVAČ, RASTUĆE"
+
+#:
+msgid "PUBLISHER, DESCENDING"
+msgstr "IZDAVAČ, SILAZNO"
+
+#:
+msgid "SYSTEM, ASCENDING"
+msgstr "SUSTAV, RASTUĆE"
+
+#:
+msgid "SYSTEM, DESCENDING"
+msgstr "SUSTAV, SILAZNO"
+
+#:
+msgid "A,AN,THE"
+msgstr "A,AN,THE"
+
+#:
+msgid "Editing the '%s' Collection. Add/remove games with Y."
+msgstr "Uređivanje kolekcije '%s'. Dodaj/ukloni igre s Y."
+
+#:
+msgid "Finished editing the '%s' Collection."
+msgstr "Završeno uređivanje kolekcije '%s'."
+
+#:
+msgid "Added '%s' to '%s'"
+msgstr "Dodano '%s' u '%s'"
+
+#:
+msgid "Removed '%s' from '%s'"
+msgstr "Uklonjeno '%s' iz '%s'"
+
+#:
+msgid "This collection is empty."
+msgstr "Ova kolekcija je prazna."
+
+#:
+msgid "None"
+msgstr "Nijedan"
+
+#:
+msgid "Various"
+msgstr "Razni"
+
+#:
+msgid "among other titles."
+msgstr "između ostalih naslova."
+
+#:
+msgid "This collection contains"
+msgstr "Ova kolekcija sadrži"
+
+#:
+msgid "games, including"
+msgstr "igre, uključujući"
+
+#:
+msgid "DOWNLOADING"
+msgstr "PREUZIMANJE"
+
+#:
+msgid "THEME INSTALLED SUCCESSFULLY"
+msgstr "TEMA JE USPJEŠNO INSTALIRANA"
+
+#:
+msgid "AN ERROR OCCURED"
+msgstr "DOŠLO JE DO GREŠKE"
+
+#:
+msgid "UPDATE AVAILABLE"
+msgstr "DOSTUPNO AŽURIRANJE"
+
+#:
+msgid "SCRAPING"
+msgstr "SKRAPANJE"
+
+#:
+msgid "Searching"
+msgstr "Traženje"
+
+#:
+msgid "SCRAPE FAILED"
+msgstr "SKRAPANJE NIJE USPJELO"
+
+#:
+msgid "Downloading"
+msgstr "Preuzimanje"
+
+#:
+msgid "SCRAPING FINISHED. REFRESH UPDATE GAMES LISTS TO APPLY CHANGES."
+msgstr "SKRAPANJE ZAVRŠENO. OSVJEŽITE POPIS IGARA ZA AŽURIRANJE PROMJENA."
+
+#:
+msgid "MAIN MENU"
+msgstr "GLAVNI IZBORNIK"
+
+#:
+msgid "KODI MEDIA CENTER"
+msgstr "KODI MEDIJSKI CENTAR"
+
+#:
+msgid "DISPLAY SETTINGS AND INFO"
+msgstr "POSTAVKE ZA PRIKAZ I INFORMACIJE"
+
+#:
+msgid "UI SETTINGS"
+msgstr "POSTAVKE KORISNIČKOG SUČELJA"
+
+#:
+msgid "CONFIGURE INPUT"
+msgstr "KONFIGURIRANJE ULAZA"
+
+#:
+msgid "SOUND SETTINGS"
+msgstr "POSTAVKE ZVUKA"
+
+#:
+msgid "GAME COLLECTION SETTINGS"
+msgstr "POSTAVKE KOLEKCIJE IGARA"
+
+#:
+msgid "EMULATOR SETTINGS"
+msgstr "POSTAVKE EMULATORA"
+
+#:
+msgid "SCRAPER"
+msgstr "SKRAPER"
+
+#:
+msgid "DOWNLOADS AND UPDATES"
+msgstr "PREUZIMANJA I AŽURIRANJA"
+
+#:
+msgid "ADVANCED SETTINGS"
+msgstr "NAPREDNE POSTAVKE"
+
+#:
+msgid "QUIT"
+msgstr "IZLAZ"
+
+#:
+msgid "BAT"
+msgstr "BAT"
+
+#:
+msgid "SND"
+msgstr "SND"
+
+#:
+msgid "BRT"
+msgstr "BRT"
+
+#:
+msgid "BT"
+msgstr "BT"
+
+#:
+msgid "WIFI"
+msgstr "WIFI"
+
+#:
+msgid "SSID"
+msgstr "SSID"
+
+#:
+msgid "Distro Version"
+msgstr "Verzija distribucije"
+
+#:
+msgid "IP"
+msgstr "IP adresa"
+
+#:
+msgid "DISPLAY"
+msgstr "PRIKAZ"
+
+#:
+msgid "BRIGHTNESS"
+msgstr "SVJETLINA"
+
+#:
+msgid "SHOW OVERLAY WHEN BRIGHTNESS CHANGES"
+msgstr "PRIKAŽI PREKLAPANJE KADA SE SVJETLINA MIJENJA"
+
+#:
+msgid "PANEL BRIGHTNESS"
+msgstr "SVJETLINA PLOČE"
+
+#:
+msgid "PANEL CONTRAST"
+msgstr "KONTRAST PLOČE"
+
+#:
+msgid "PANEL SATURATION"
+msgstr "ZASIĆENOST PLOČE"
+
+#:
+msgid "PANEL HUE"
+msgstr "NUANSA PLOČE"
+
+#:
+msgid ""), false, [this] {  });
+msgstr ""
+
+#:
+msgid "PANEL ID"
+msgstr "ID PLOČE"
+
+#:
+msgid "SCRAPE FROM"
+msgstr "SKRAPANJE IZ"
+
+#:
+msgid "IMAGE SOURCE"
+msgstr "IZVOR SLIKE"
+
+#:
+msgid "NONE"
+msgstr "NEMA"
+
+#:
+msgid "SCREENSHOT"
+msgstr "SCREENSHOT"
+
+#:
+msgid "TITLE SCREENSHOT"
+msgstr "SCREENSHOT NASLOVA"
+
+#:
+msgid "MIX V1"
+msgstr "MIKS V1"
+
+#:
+msgid "MIX V2"
+msgstr "MIKS V2"
+
+#:
+msgid "BOX 2D"
+msgstr "KUTIJA 2D"
+
+#:
+msgid "BOX 3D"
+msgstr "KUTIJA 3D"
+
+#:
+msgid "BOX SOURCE"
+msgstr "IZVOR KUTIJE"
+
+#:
+msgid "LOGO SOURCE"
+msgstr "IZVOR LOGA"
+
+#:
+msgid "WHEEL"
+msgstr "KOTAČ"
+
+#:
+msgid "MARQUEE"
+msgstr "MARQUEE"
+
+#:
+msgid "SCRAPE RATINGS"
+msgstr "SKRAPANJE OCJENA"
+
+#:
+msgid "SCRAPE VIDEOS"
+msgstr "SKRAPANJE VIDEOZAPISA"
+
+#:
+msgid "USERNAME"
+msgstr "KORISNIČKO IME"
+
+#:
+msgid "PASSWORD"
+msgstr "LOZINKA"
+
+#:
+msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT ?"
+msgstr "SKRAPANJE JE U TIJEKU. ŽELITE LI GA ZAUSTAVITI?"
+
+#:
+msgid "YES"
+msgstr "DA"
+
+#:
+msgid "NO"
+msgstr "NE"
+
+#:
+msgid "SCRAPE NOW"
+msgstr "SKRAPIRAJ SADA"
+
+#:
+msgid "SYSTEM VOLUME"
+msgstr "GLASNOĆA SUSTAVA"
+
+#:
+msgid "AUDIO CARD"
+msgstr "AUDIO KARTICA"
+
+#:
+msgid "AUDIO DEVICE"
+msgstr "AUDIO UREĐAJ"
+
+#:
+msgid "SHOW OVERLAY WHEN VOLUME CHANGES"
+msgstr "PRIKAŽI PREKLAPANJE KADA SE GLASNOĆA MIJENJA"
+
+#:
+msgid "FLIP VOLUME BUTTONS"
+msgstr "OKRENI GUMB ZA GLASNOĆU"
+
+#:
+msgid "FRONTEND MUSIC"
+msgstr "GLAZBA SUČELJA"
+
+#:
+msgid "DISPLAY SONG TITLES"
+msgstr "PRIKAŽI NAZIVE PJESAMA"
+
+#:
+msgid "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER"
+msgstr "SAMO REPRODUCIRAJ GLAZBENU MAPU SPECIFIČNU ZA SUSTAV"
+
+#:
+msgid "PLAY THEME MUSICS"
+msgstr "REPRODUCIRAJ TEMU GLAZBU"
+
+#:
+msgid "ENABLE NAVIGATION SOUNDS"
+msgstr "OMOGUĆI ZVUKOVE NAVIGACIJE"
+
+#:
+msgid "ENABLE VIDEO AUDIO"
+msgstr "OMOGUĆI ZVUK VIDEOZAPISA"
+
+#:
+msgid "LOWER MUSIC WHEN PLAYING VIDEO"
+msgstr "SNIZI GLAZBU KADA SE REPRODUCIRA VIDEO"
+
+#:
+msgid "Verbal BATTERY Voice"
+msgstr "Govorni glas BATERIJE"
+
+#:
+msgid "MALE 1"
+msgstr "MUŠKI 1"
+
+#:
+msgid "MALE 2"
+msgstr "MUŠKI 2"
+
+#:
+msgid "FEMALE"
+msgstr "ŽENSKI"
+
+#:
+msgid "VERBAL BATTERY VOICE"
+msgstr "GOVORNI GLAS BATERIJE"
+
+#:
+msgid "Verbal BATTERY Warning"
+msgstr "Govorno upozorenje BATERIJE"
+
+#:
+msgid "OFF"
+msgstr "ISKLJUČENO"
+
+#:
+msgid "ON"
+msgstr "UKLJUČENO"
+
+#:
+msgid "VERBAL BATTERY WARNING"
+msgstr "GOVORNO UPOZORENJE BATERIJE"
+
+#:
+msgid "YOU MUST APPLY THE THEME BEFORE EDIT CONFIGURATION"
+msgstr "MORATE PRIMIJENITI TEMU PRIJE UREĐIVANJA KONFIGURACIJE"
+
+#:
+msgid "OK"
+msgstr "OK"
+
+#:
+msgid "THEME CONFIGURATION"
+msgstr "KONFIGURACIJA TEME"
+
+#:
+msgid "VIEW CUSTOMISATION"
+msgstr "PRIKAZ PRILAGOĐAVANJA"
+
+#:
+msgid "GAMELIST VIEW STYLE"
+msgstr "STIL PRIKAZA POPISA IGARA"
+
+#:
+msgid "automatic"
+msgstr "automatski"
+
+#:
+msgid "basic"
+msgstr "osnovni"
+
+#:
+msgid "detailed"
+msgstr "detaljni"
+
+#:
+msgid "DEFAULT GRID SIZE"
+msgstr "ZADANA VELIČINA MREŽE"
+
+#:
+msgid "DEFAULT"
+msgstr "ZADANO"
+
+#:
+msgid "RESET GAMELIST CUSTOMISATIONS"
+msgstr "RESETIRAJ PRILAGODBE POPISA IGARA"
+
+#:
+msgid "THEME"
+msgstr "TEMA"
+
+#:
+msgid "video"
+msgstr "video"
+
+#:
+msgid "grid"
+msgstr "mreža"
+
+#:
+msgid "SCREENSAVER SETTINGS"
+msgstr "POSTAVKE EKRANSKOG SPASITELJA"
+
+#:
+msgid "UI MODE"
+msgstr "MOD KORISNIČKOG SUČELJA"
+
+#:
+msgid "LANGUAGE"
+msgstr "JEZIK"
+
+#:
+msgid "TRANSITION STYLE"
+msgstr "STIL PRIJELAZA"
+
+#:
+msgid "GAME LAUNCH TRANSITION"
+msgstr "PRIJELAZ POKRETANJA IGRE"
+
+#:
+msgid "START ON SYSTEM"
+msgstr "POČNI NA SUSTAVU"
+
+#:
+msgid "VISIBLE SYSTEMS"
+msgstr "VIDLJIVI SUSTAVI"
+
+#:
+msgid "BOOT ON GAMELIST"
+msgstr "POKRENI NA POPISU IGARA"
+
+#:
+msgid "HIDE SYSTEM VIEW"
+msgstr "SISTEM ZA SKRIVANJE PREGLEDA"
+
+#:
+msgid "HIDE WHEN RUNNING GAME"
+msgstr "SKRIVANJE KADA SE IZVRŠAVA IGRA"
+
+#:
+msgid "QUICK SYSTEM SELECT"
+msgstr "BRZI ODABIR SUSTAVA"
+
+#:
+msgid "CAROUSEL TRANSITIONS"
+msgstr "PROMJENE U KARUSELI"
+
+#:
+msgid "SHOW CLOCK"
+msgstr "PRIKAŽI SAT"
+
+#:
+msgid "ON-SCREEN HELP"
+msgstr "POMOĆ NA EKRANU"
+
+#:
+msgid "SHOW BATTERY STATUS"
+msgstr "PRIKAŽI STATUS BATERIJE"
+
+#:
+msgid "ICON"
+msgstr "IKONA"
+
+#:
+msgid "ICON AND TEXT"
+msgstr "IKONA I TEKST"
+
+#:
+msgid "SHOW FILENAMES IN LISTS"
+msgstr "PRIKAŽI IMENA DATOTEKA U POPISIMA"
+
+#:
+msgid "IGNORE LEADING ARTICLES WHEN SORTING"
+msgstr "IGNORIRAJ POČETNE ČLANKE PRI SORTIRANJU"
+
+#:
+msgid "ENABLE FILTERS"
+msgstr "OMOGUĆI FILTRE"
+
+#:
+msgid "Scan Ports folder on boot"
+msgstr "Skeniraj mapu luka prilikom pokretanja"
+
+#:
+msgid "Show Kodi in Start Menu"
+msgstr "Prikaži Kodija u izborniku za početak"
+
+#:
+msgid "EMULATOR"
+msgstr "EMULATOR"
+
+#:
+msgid "CORE"
+msgstr "JEZGRA"
+
+#:
+msgid "AUTO"
+msgstr "AUTO"
+
+#:
+msgid "GOVERNOR"
+msgstr "UPRAVNIK"
+
+#:
+msgid "THEME INSTALLER"
+msgstr "INSTALATER TEMA"
+
+#:
+msgid "AUTO UPDATES"
+msgstr "AUTO AŽURIRANJA"
+
+#:
+msgid "APPLY UPDATE"
+msgstr "PRIMIJENI AŽURIRANJE"
+
+#:
+msgid "START UPDATE"
+msgstr "POČNI AŽURIRANJE"
+
+#:
+msgid "NO UPDATE AVAILABLE"
+msgstr "NEMA DOSTUPNOG AŽURIRANJA"
+
+#:
+msgid "UPDATE IS ALREADY RUNNING"
+msgstr "AŽURIRANJE VEĆ RADI"
+
+#:
+msgid "TIMEZONE"
+msgstr "VREMENSKA ZONA"
+
+#:
+msgid "SHOW CLOCK IN 12-HOUR FORMAT"
+msgstr "PRIKAŽI SAT U 12-SATNOM FORMATU"
+
+#:
+msgid "SWITCH A/B BUTTONS IN EMULATIONSTATION"
+msgstr "PREBACI A/B GUMBE U EMULATIONSTATIONU"
+
+#:
+msgid "SWITCH POWER BUTTON TAP TO OFF"
+msgstr "PREBACI DODIRNI GUMB ZA ISKLJUČIVANJE"
+
+#:
+msgid "POWER SAVER MODES"
+msgstr "NAČINI UŠTEDA ENERGIJE"
+
+#:
+msgid "VRAM LIMIT"
+msgstr "VRAM LIMIT"
+
+#:
+msgid "SAVE METADATA ON EXIT"
+msgstr "SPREMI METAPODATKE PRILIKOM IZLAZAKA"
+
+#:
+msgid "PARSE GAMESLISTS ONLY"
+msgstr "PROČITAJ SAMO POPISE IGARA"
+
+#:
+msgid "SEARCH FOR LOCAL ART"
+msgstr "TRAŽI LOKALNE UMJETNOSTI"
+
+#:
+msgid "PRELOAD UI"
+msgstr "PREUČITAJ UI"
+
+#:
+msgid "OPTIMIZE IMAGES VRAM USE"
+msgstr "OPTIMIZIRAJ UPOTREBU SLIKA VRAM"
+
+#:
+msgid "VSYNC"
+msgstr "VSYNC"
+
+#:
+msgid "SHOW FRAMERATE"
+msgstr "PRIKAŽI BROJ SLIČICA"
+
+#:
+msgid "THREADED LOADING"
+msgstr "VIŠEDRETVENO UČITAVANJE"
+
+#:
+msgid "Default Emulator Governor"
+msgstr "Zadani upravnik emulacije"
+
+#:
+msgid "COMPLETE QUIT MENU"
+msgstr "POTPUNI IZBORNIK ZA IZLAZ"
+
+#:
+msgid "LOG LEVEL"
+msgstr "RAZINA ZAPISA"
+
+#:
+msgid "OPTIONAL RUMBLE MOTOR"
+msgstr "IZBORNI VIBRACIJSKI MOTOR"
+
+#:
+msgid "ARE YOU SURE YOU WANT TO CONFIGURE INPUT?"
+msgstr "JESTE LI SIGURNI DA ŽELITE KONFIGURIRATI UNOS?"
+
+#:
+msgid "REALLY RESTART?"
+msgstr "STVARNO PONOVNO POKRENI?"
+
+#:
+msgid "RESTART EMULATIONSTATION"
+msgstr "PONOVNO POKRENI EMULATIONSTATION"
+
+#:
+msgid "REALLY QUIT?"
+msgstr "STVARNO IZAĐI?"
+
+#:
+msgid "QUIT EMULATIONSTATION"
+msgstr "IZAĐI IZ EMULATIONSTATIONA"
+
+#:
+msgid "RESTART SYSTEM"
+msgstr "PONOVNO POKRENI SUSTAV"
+
+#:
+msgid "REALLY SHUTDOWN?"
+msgstr "STVARNO ISKLJUČI?"
+
+#:
+msgid "SHUTDOWN SYSTEM"
+msgstr "ISKLJUČI SUSTAV"
+
+#:
+msgid "THIS FUNCTION IS DISABLED WHEN SCRAPING IS RUNNING"
+msgstr "OVA FUNKCIJA JE ONEMOGUĆENA KADA JE SKRAPANJE U TIJEKU"
+
+#:
+msgid "CLOSE"
+msgstr "ZATVORI"
+
+#:
+msgid "SWAP VIDEO AFTER (SECS)"
+msgstr "ZAMJENA VIDEA NAKON (SEK)"
+
+#:
+msgid "USE OMX PLAYER FOR SCREENSAVER"
+msgstr "KORISTI OMX POKRETAČ ZA EKRANSKE SPASITELJE"
+
+#:
+msgid "VIDEO SCREENSAVER"
+msgstr "VIDEO EKRANSKI SPASITELJ"
+
+#:
+msgid "SHOW GAME INFO"
+msgstr "PRIKAŽI INFO O IGRI"
+
+#:
+msgid "SHOW GAME INFO ON SCREENSAVER"
+msgstr "PRIKAŽI INFO O IGRI NA EKRANSKOM SPASITELJU"
+
+#:
+msgid "USE MARQUEE AS GAME INFO"
+msgstr "KORISTI MARQUEE KAO INFO O IGRI"
+
+#:
+msgid "USE RANDOM DECORATION"
+msgstr "KORISTI NASUMIČNU DEKORACIJU"
+
+#:
+msgid "STRETCH VIDEO ON SCREENSAVER"
+msgstr "RASTEZANJE VIDEA NA EKRANSKOM SPASITELJU"
+
+#:
+msgid "FILTER GAMELIST BY"
+msgstr "FILTRIRAJ POPIS IGARA PO"
+
+#:
+msgid "RESET ALL FILTERS"
+msgstr "RESETIRAJ SVE FILTRE"
+
+#:
+msgid "SCRAPE THESE GAMES"
+msgstr "SKRAPIRAJ OVE IGRE"
+
+#:
+msgid "All Games"
+msgstr "Sve igre"
+
+#:
+msgid "Only missing medias"
+msgstr "Samo nedostajuće medije"
+
+#:
+msgid "FILTER"
+msgstr "FILTRIRAJ"
+
+#:
+msgid "SCRAPE THESE SYSTEMS"
+msgstr "SKRAPIRAJ OVE SUSTAVE"
+
+#:
+msgid "SYSTEMS"
+msgstr "SUSTAVI"
+
+#:
+msgid "USER DECIDES ON CONFLICTS"
+msgstr "KORISNIK ODLUČUJE O SUKOBLIMA"
+
+#:
+msgid "START"
+msgstr "POKRENI"
+
+#:
+msgid "NO GAMES FIT THAT CRITERIA."
+msgstr "NEMA IGARA KOJE ODGOVARAJU TOM KRITERIJU."
+
+#:
+msgid "INPUT"
+msgstr "UNOS"
+
+#:
+msgid "search"
+msgstr "pretraga"
+
+#:
+msgid "CANCEL"
+msgstr "ODUSTANI"
+
+#:
+msgid "GROUPED SYSTEMS"
+msgstr "GRUPE SUSTAVA"
+
+#:
+msgid "CREATE NEW CUSTOM COLLECTION FROM THEME"
+msgstr "STVORI NOVU PRILAGOĐENU KOLEKCIJU IZ TEMA"
+
+#:
+msgid "SELECT THEME FOLDER"
+msgstr "ODABERI MAPU TEMA"
+
+#:
+msgid "CREATE NEW CUSTOM COLLECTION"
+msgstr "STVORI NOVU PRILAGOĐENU KOLEKCIJU"
+
+#:
+msgid "New Collection Name"
+msgstr "Novi naziv kolekcije"
+
+#:
+msgid "GROUP UNTHEMED CUSTOM COLLECTIONS"
+msgstr "GRUPA PRILAGOĐENIH NE TEMELJENIH KOLEKCIJA"
+
+#:
+msgid "SORT COLLECTIONS AND SYSTEMS"
+msgstr "SORTIRAJ KOLEKCIJE I SUSTAVE"
+
+#:
+msgid "ALPHABETICALLY"
+msgstr "ABECEDNO"
+
+#:
+msgid "BY MANUFACTURER"
+msgstr "PO PROIZVOĐAČU"
+
+#:
+msgid "BY HARDWARE TYPE"
+msgstr "PO VRSTI HARDVERA"
+
+#:
+msgid "BY RELEASE YEAR"
+msgstr "PO GODINI IZDANJA"
+
+#:
+msgid "SORT SYSTEMS"
+msgstr "SORTIRAJ SUSTAVE"
+
+#:
+msgid "SHOW SYSTEM NAME IN COLLECTIONS"
+msgstr "PRIKAŽI NAZIV SUSTAVA U KOLEKCIJAMA"
+
+#:
+msgid "FINISH EDITING COLLECTION"
+msgstr "DOVRŠI UREĐIVANJE KOLEKCIJE"
+
+#:
+msgid "SELECT COLLECTIONS"
+msgstr "ODABERI KOLEKCIJE"
+
+#:
+msgid "ARCADE SYSTEMS"
+msgstr "ARKADNI SUSTAVI"
+
+#:
+msgid "AUTOMATIC GAME COLLECTIONS"
+msgstr "AUTOMATSKA KOLEKCIJA IGARA"
+
+#:
+msgid "CUSTOM GAME COLLECTIONS"
+msgstr "PRILAGOĐENE KOLEKCIJE IGARA"
+
+#:
+msgid "SCREENSAVER AFTER"
+msgstr "EKRANSKI SPASITELJ NAKON"
+
+#:
+msgid "SCREENSAVER BEHAVIOR"
+msgstr "PONAŠANJE EKRANSKOG SPASITELJA"
+
+#:
+msgid "THE \""
+msgstr "„"
+
+#:
+msgid "VIDEO SCREENSAVER SETTINGS"
+msgstr "POSTAVKE VIDEO EKRANSKOG SPASITELJA"
+
+#:
+msgid "SLIDESHOW SCREENSAVER SETTINGS"
+msgstr "POSTAVKE EKRANSKOG SPASITELJA DIAPOZITIVA"
+
+#:
+msgid "SCREENSAVER CONTROLS"
+msgstr "KONTROLE EKRANSKOG SPASITELJA"
+
+#:
+msgid "SLIDESHOW SCREENSAVER"
+msgstr "EKRANSKI SPASITELJ DIAPOZITIVA"
+
+#:
+msgid "EDIT METADATA"
+msgstr "UREDI METAPODACI"
+
+#:
+msgid "SCRAPE"
+msgstr "SKRAPIRAJ"
+
+#:
+msgid "SAVE"
+msgstr "SPREMI"
+
+#:
+msgid "THIS WILL DELETE THE ACTUAL GAME FILE(S)!\nARE YOU SURE?"
+msgstr "OVO ĆE IZBRISATI STVARNE DATOTEKE IGARA!\nJESTE LI SIGURNI?"
+
+#:
+msgid "DELETE"
+msgstr "IZBRIŠI"
+
+#:
+msgid "SAVE CHANGES ?"
+msgstr "SPREMI PROMJENE?"
+
+#:
+msgid "SWAP IMAGE AFTER (SECS)"
+msgstr "ZAMJENI SLIKU NAKON (SEK)"
+
+#:
+msgid "STRETCH IMAGES"
+msgstr "RASTEZANJE SLIKA"
+
+#:
+msgid "USE CUSTOM IMAGES"
+msgstr "KORISTI PRILAGOĐENE SLIKE"
+
+#:
+msgid "CUSTOM IMAGE DIR"
+msgstr "PRILAGOĐENA MAPA SLIKA"
+
+#:
+msgid "CUSTOM IMAGE DIR RECURSIVE"
+msgstr "PRILAGOĐENA REKURZIVNA MAPA SLIKA"
+
+#:
+msgid "CUSTOM IMAGE FILTER"
+msgstr "PRILAGOĐENI FILTRI SLIKA"
+
+#:
+msgid "go back"
+msgstr "idi natrag"
+
+#:
+msgid "JUMP TO..."
+msgstr "SKOČI NA..."
+
+#:
+msgid "UPDATE GAMES LISTS"
+msgstr "AŽURIRAJ LISTE IGARA"
+
+#:
+msgid "REALLY UPDATE GAMES LISTS ?"
+msgstr "STVARNO AŽURIRAJ LISTE IGARA?"
+
+#:
+msgid "SORT GAMES BY"
+msgstr "SORTIRAJ IGRE PO"
+
+#:
+msgid "GRID SIZE"
+msgstr "VELIČINA MREŽE"
+
+#:
+msgid "APPLY FILTER"
+msgstr "PRIMIJENI FILTAR"
+
+#:
+msgid "SHOW FAVORITES ON TOP"
+msgstr "PRIKAŽI FAVORITE NA VRHU"
+
+#:
+msgid "SHOW HIDDEN FILES"
+msgstr "PRIKAŽI SKRIVENE DATOTEKE"
+
+#:
+msgid "SHOW FOLDERS"
+msgstr "PRIKAŽI MAPE"
+
+#:
+msgid "ADD/REMOVE GAMES TO THIS GAME COLLECTION"
+msgstr "DODAJ/UKLONI IGRE U OVOJ KOLEKCIJI IGARA"
+
+#:
+msgid "FINISH EDITING"
+msgstr "DOVRŠI UREĐIVANJE"
+
+#:
+msgid "COLLECTION"
+msgstr "KOLEKCIJA"
+
+#:
+msgid "EDIT THIS GAME'S METADATA"
+msgstr "UREDI METAPODACI OVE IGRE"
+
+#:
+msgid "FILTER GAMES BY TEXT"
+msgstr "FILTRIRAJ IGRE PO TEKSTU"
+
+#:
+msgid "SELECT THEME TO INSTALL"
+msgstr "ODABERI TEMU ZA INSTALACIJU"
+
+#:
+msgid "ADDED TO DOWNLOAD QUEUE"
+msgstr "DODANO U RED ČEKANJA ZA PREUZIMANJE"
+
+#:
+msgid "Favorites"
+msgstr "Omiljeni"
+
+#:
+msgid "EMULATIONSTATION"
+msgstr "EMULATIONSTATION"
+
+#:
+msgid "UPDATE IS READY"
+msgstr "AŽURIRANJE JE SPREMNO"
+
+#:
+msgid "RESTART EMULATIONSTATION TO APPLY"
+msgstr "PONOVNO POKRENI EMULATIONSTATION ZA PRIMJENU"
+
+#:
+msgid "Extracting"
+msgstr "Izdvajanje"
+
+#:
+msgid "Starting UI"
+msgstr "Pokretanje UI"
+
+#:
+msgid "SAVING DATA. PLEASE WAIT..."
+msgstr "SPAŠAVANJE PODATAKA. MOLIMO PRIČEKAJTE..."
+
+#:
+msgid "FINISH"
+msgstr "ZAVRŠI"
+
+#:
+msgid "NO GAMES FOUND - SKIP"
+msgstr "NEMA PRONAĐENIH IGARA - PRESKOČI"
+
+#:
+msgid "AN ERROR HAS OCCURED"
+msgstr "DOŠLO JE DO GREŠKE"
+
+#:
+msgid "RETRY"
+msgstr "PONOVNO POKUŠAJ"
+
+#:
+msgid "SKIP"
+msgstr "PRESKOČI"
+
+#:
+msgid "SEARCHING"
+msgstr "TRAŽENJE"
+
+#:
+msgid "accept result"
+msgstr "prihvati rezultat"
+
+#:
+msgid "discard changes"
+msgstr "odbaci promjene"
+
+#:
+msgid "WELCOME"
+msgstr "DOBRODOŠLI"
+
+#:
+msgid "NO GAMEPADS DETECTED"
+msgstr "NEMA DETEKTIRANIH IGRAĆIH KONZOLA"
+
+#:
+msgid "HOLD A BUTTON ON YOUR DEVICE TO CONFIGURE IT."
+msgstr "PRITISNITE GUMB NA SVOJEM UREĐAJU ZA KONFIGURACIJU."
+
+#:
+msgid "PRESS F4 TO QUIT AT ANY TIME."
+msgstr "PRITISNITE F4 ZA IZLAZ U BILO KOJEM TRENUTKU."
+
+#:
+msgid "PRESS ESC TO CANCEL."
+msgstr "PRITISNITE ESC ZA ODUSTAJANJE."
+
+#:
+msgid "SHIFTS FOR UPPER,LOWER, AND SPECIAL"
+msgstr "SHIFT ZA VELIKA, MALA SLOVA I SPECIJALNE ZNAKOVE"
+
+#:
+msgid "ALT GR"
+msgstr "ALT GR"
+
+#:
+msgid "RESET"
+msgstr "RESETIRAJ"
+
+#:
+msgid "SHIFT"
+msgstr "SHIFT"
+
+#:
+msgid "SPACE"
+msgstr "RAZMAK"
+
+#:
+msgid "accept"
+msgstr "prihvati"
+
+#:
+msgid "SELECT ALL"
+msgstr "ODABERI SVE"
+
+#:
+msgid "SELECT NONE"
+msgstr "ODABERI NIŠTA"
+
+#:
+msgid "never"
+msgstr "nikad"
+
+#:
+msgid "unknown"
+msgstr "nepoznato"
+
+#:
+msgid "WORKING..."
+msgstr "RADIM..."
+
+#:
+msgid "MOVE CURSOR"
+msgstr "MIJENJANJE KURSORA"
+
+#:
+msgid "STOP EDITING"
+msgstr "PRESTANI UREĐIVATI"
+
+#:
+msgid "EDIT"
+msgstr "UREDI"
+
+#:
+msgid "CHANGE"
+msgstr "PROMJENI"
