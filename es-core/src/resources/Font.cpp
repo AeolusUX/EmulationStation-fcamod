@@ -281,9 +281,10 @@ std::vector<std::string> getFallbackFontPaths()
 	// Linux
 
 	const char* paths[] = { 
+		":/fontawesome-webfont.ttf",
+		"/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf", // japanese, chinese, present on Debian
 		"/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-		"/usr/share/fonts/truetype/freefont/FreeMono.ttf",
-		"/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf" // japanese, chinese, present on Debian
+		":/fallback.ttf" // fallback font of your language
 	};
 
 	std::vector<std::string> fontPaths;
@@ -316,6 +317,11 @@ FT_Face Font::getFaceForChar(unsigned int id)
 			mFaceCache[i] = std::unique_ptr<FontFace>(new FontFace(std::move(data), i == 1 && mMaxGlyphHeight > 0 ? mMaxGlyphHeight : mSize)); // Reduce size of gyphs ????
 			fit = mFaceCache.find(i);
 		}
+
+		// i == 2 -> DroidSansFallbackFull
+		// this font has a bug when handling Korean characters.
+		if (i == 2 && Utils::String::isKorean(id))
+			continue;
 
 		if (FT_Get_Char_Index(fit->second->face, id) != 0)
 			return fit->second->face;

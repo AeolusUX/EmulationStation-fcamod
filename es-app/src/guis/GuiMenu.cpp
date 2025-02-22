@@ -427,6 +427,40 @@ void GuiMenu::openSoundSettings()
 		   }
 	});
 
+	// Verbal Battery Warning threshold
+	auto Thold = std::make_shared< OptionListComponent<std::string> >(mWindow, _("Verbal BATTERY Warning Threshold (%)"), false);
+	std::vector<std::string> athreshold;
+	athreshold.push_back("Default");
+	athreshold.push_back("5");
+	athreshold.push_back("10");
+	athreshold.push_back("15");
+	athreshold.push_back("20");
+	athreshold.push_back("25");
+	athreshold.push_back("30");
+	athreshold.push_back("35");
+	athreshold.push_back("40");
+	athreshold.push_back("45");
+	athreshold.push_back("50");
+
+	auto threshold = Settings::getInstance()->getString("VerbalBatteryThreshold");
+	if (threshold.empty())
+		threshold = "Default";
+
+	for (auto it = athreshold.cbegin(); it != athreshold.cend(); it++)
+		Thold->add(_(it->c_str()), *it, threshold == *it);
+
+	s->addWithLabel(_("Verbal BATTERY Warning Threshold (%)"), Thold);
+	s->addSaveFunc([this, Thold] { Settings::getInstance()->setString("VerbalBatteryThreshold", Thold->getSelected());
+		if (Thold->changed()) {
+		    if (strstr(Thold->getSelected().c_str(),"Default")) {
+		      runSystemCommand("[ ! -z $(find /home/ark/.config/.CUSTOM_BATT_LIFE_WARNING) ] && rm -f /home/ark/.config/.CUSTOM_BATT_LIFE_WARNING", "", nullptr);
+		    }
+		    else {
+		      runSystemCommand("echo " + Settings::getInstance()->getString("VerbalBatteryThreshold") + " > /home/ark/.config/.CUSTOM_BATT_LIFE_WARNING", "", nullptr);
+		    }
+		}
+	});
+
 #ifdef _RPI_
 		// OMX player Audio Device
 		auto omx_audio_dev = std::make_shared< OptionListComponent<std::string> >(mWindow, "OMX PLAYER AUDIO DEVICE", false);
@@ -508,7 +542,7 @@ void GuiMenu::openThemeConfiguration(Window* mWindow, GuiComponent* s, std::shar
 			auto mViews = theme->getViewsOfTheme();
 			for (auto it = mViews.cbegin(); it != mViews.cend(); ++it)
 			{
-				if (it->first == "basic" || it->first == "detailed" || it->first == "grid")
+				if (it->first == "basic" || it->first == "detailed" || it->first == "grid" || it->first == "video")
 					styles.push_back(std::pair<std::string, std::string>(it->first, _(it->first.c_str())));
 				else
 					styles.push_back(*it);
@@ -963,17 +997,17 @@ void GuiMenu::openUISettings()
 		std::string selectedMode = UImodeSelection->getSelected();
 		if (selectedMode != "Full")
 		{
-			std::string msg = "You are changing the UI to a restricted mode:\n" + selectedMode + "\n";
-			msg += "This will hide most menu-options to prevent changes to the system.\n";
-			msg += "To unlock and return to the full UI, enter this code: \n";
+			std::string msg = _("You are changing the UI to a restricted mode:") + "\n" + selectedMode + "\n";
+			msg += _("This will hide most menu-options to prevent changes to the system.") + "\n";
+			msg += _("To unlock and return to the full UI, enter this code:") + "\n";
 			msg += "\"" + UIModeController::getInstance()->getFormattedPassKeyStr() + "\"\n\n";
-			msg += "Do you want to proceed?";
+			msg += _("Do you want to proceed?");
 			window->pushGui(new GuiMsgBox(window, msg,
-				"YES", [selectedMode] {
+				_("YES"), [selectedMode] {
 				LOG(LogDebug) << "Setting UI mode to " << selectedMode;
 				Settings::getInstance()->setString("UIMode", selectedMode);
 				Settings::getInstance()->saveFile();
-			}, "NO", nullptr));
+			}, _("NO"), nullptr));
 		}
 	});
 	//#endif
@@ -1289,7 +1323,7 @@ void GuiMenu::openUISettings()
     if (strstr(GameLoadingImageMode->getSelected().c_str(),"pic")){
 	 auto GameLoadingImage = std::make_shared<OptionListComponent<std::string> >(mWindow, _("Game Loading Image"), false);
 	 GameLoadingImage->addRange({ { _("DEFAULT"), "default" },{ _("MARQUEE"), "marquee" },{ _("IMAGE"), "image" },{ _("THUMB"), "thumb" } }, Settings::getInstance()->getString("GameLoadingImage"));
-	 s->addWithLabel(_("GAME LOADING IMAGE"), GameLoadingImage);
+	 s->addWithLabel(_("  GAME LOADING IMAGE"), GameLoadingImage);
 	 s->addSaveFunc([s, GameLoadingImage]
 	 {
 		std::string old_value = Settings::getInstance()->getString("GameLoadingImage");
@@ -1312,6 +1346,32 @@ void GuiMenu::openUISettings()
             }
 			Settings::getInstance()->setString("GameLoadingImage", GameLoadingImage->getSelected());
 		   }
+	 });
+
+	// Game Loading Image delay
+	 auto ITime = std::make_shared< OptionListComponent<std::string> >(mWindow, _("Game Loading Image Delay (secs)"), false);
+	 std::vector<std::string> adelay;
+	 adelay.push_back("1.5");
+	 adelay.push_back("2");
+	 adelay.push_back("2.5");
+	 adelay.push_back("3");
+	 adelay.push_back("3.5");
+	 adelay.push_back("4");
+	 adelay.push_back("4.5");
+	 adelay.push_back("5");
+
+	 auto delay = Settings::getInstance()->getString("ImagedelayTime");
+	 if (delay.empty())
+		delay = "1.5";
+
+	 for (auto it = adelay.cbegin(); it != adelay.cend(); it++)
+		ITime->add(_(it->c_str()), *it, delay == *it);
+
+	 s->addWithLabel(_("  Game Loading Image delay (secs)"), ITime);
+	 s->addSaveFunc([this, ITime] { Settings::getInstance()->setString("ImagedelayTime", ITime->getSelected()); 
+		if (ITime->changed()) {
+		    runSystemCommand("echo " + Settings::getInstance()->getString("ImagedelayTime") + " > /home/ark/.config/.IMAGEDELAYTIME", "", nullptr);
+		}
 	 });
 	}
 	s->updatePosition();

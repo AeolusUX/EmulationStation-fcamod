@@ -120,6 +120,7 @@ const std::map<PlatformId, unsigned short> screenscraper_platformid_map{
 	{ MOONLIGHT, 138 }, // "PC Windows"
 	{ MODEL3, 55 },
 	{ TI99, 205 },
+	{ vircon32, 272 },
 	{ WASM4, 262 },
 	{ SEGA_PICO, 250 },
 	{ WATARA_SUPERVISION, 207 },
@@ -235,6 +236,11 @@ void screenscraper_generate_scraper_requests(const ScraperSearchParams& params,
 	std::string path;
 
 	ScreenScraperRequest::ScreenScraperConfig ssConfig;
+
+	//Exclude certain file names from scraping attempt
+	std::string fn = Utils::String::toLower(params.game->getFileName());
+	if (Utils::String::startsWith(fn, "menu.scummvm"))
+	  return;
 
 	// FCA Fix for names override not working on Retropie
 	if (params.nameOverride.length() == 0)

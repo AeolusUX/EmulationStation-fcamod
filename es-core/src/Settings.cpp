@@ -104,10 +104,12 @@ void Settings::setDefaults()
 	mBoolMap["SaveGamelistsOnExit"] = true;
 	mStringMap["VerbalBatteryVoice"] = "male1";
 	mStringMap["VerbalBatteryWarning"] = "on";
+	mStringMap["VerbalBatteryThreshold"] = "Default";
 	mStringMap["GlobalPerformanceGovernor"] = "performance";
 	mStringMap["AutoSuspendTimeout"] = "Off";
 	mStringMap["GameLoadingImage"] = "default";
 	mStringMap["GameLoadingIMode"] = "pic";
+	mStringMap["ImagedelayTime"] = "1.5";
 	mBoolMap["OptimizeVRAM"] = true;	
 	mBoolMap["ThreadedLoading"] = true;	
 	mBoolMap["MusicTitles"] = true;
@@ -155,6 +157,9 @@ void Settings::setDefaults()
 	mStringMap["ThemeGamelistView"] = "";
 	mStringMap["ThemeRegionName"] = "eu";
 
+	mBoolMap["ScreenSaverDateTime"] = false;
+	mStringMap["ScreenSaverDateFormat"] = "%Y-%m-%d";
+	mStringMap["ScreenSaverTimeFormat"] = "%H:%M:%S";
 	mBoolMap["ScreenSaverControls"] = true;
 	mStringMap["ScreenSaverGameInfo"] = "never";
 	mBoolMap["StretchVideoOnScreenSaver"] = false;
